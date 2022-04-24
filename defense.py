@@ -106,6 +106,8 @@ def get_eval_data(name, attack_name='badnets', target_lab='8', args=None):
 	att_val_set = TensorDataset(x_poi_test[:5000],y_poi_test[:5000])
 	if args.unl_set == None:
 		unl_set = TensorDataset(x_test[:5000],y_test[:5000])
+	else:
+		unl_set = args.unl_set
 
 	return test_set, att_val_set, unl_set
 
