@@ -32,10 +32,10 @@ Clean data used for backdoor unlearning can be specified with argument `--unl_se
 ## Citation
 If you find our work useful please cite:
 ```
-@article{zeng2021adversarial,
+@inproceedings{zeng2021adversarial,
   title={Adversarial Unlearning of Backdoors via Implicit Hypergradient},
-  author={Zeng, Yi and Chen, Si and Park, Won and Mao, Z Morley and Jin, Ming and Jia, Ruoxi},
-  journal={arXiv preprint arXiv:2110.03735},
+  author={Zeng, Yi and Chen, Si and Park, Won and Mao, Zhuoqing and Jin, Ming and Jia, Ruoxi},
+  booktitle={International Conference on Learning Representations},
   year={2021}
 }
 ```
