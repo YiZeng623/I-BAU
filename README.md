@@ -3,7 +3,7 @@
 ![Pytorch 1.8.1](https://img.shields.io/badge/pytorch-1.8.1-DodgerBlue.svg?style=plastic)
 ![CUDA 10.1](https://img.shields.io/badge/cuda-10.1-DodgerBlue.svg?style=plastic)
 
-Official Implementation of ICLR 2022 paper, **Adversarial Unlearning of Backdoors via Implicit Hypergradient** \[[arxiv](https://arxiv.org/pdf/2110.03735.pdf)\]\[[openreview](https://openreview.net/forum?id=MeeQkFYVbzW)\]. <br>
+Official Implementation of ICLR 2022 paper, **Adversarial Unlearning of Backdoors via Implicit Hypergradient** \[[openreview](https://openreview.net/forum?id=MeeQkFYVbzW)\]\[[video](https://www.youtube.com/watch?v=j8BwMYJtPdg&t=2s)\] . <br>
 
 We propose a novel minimax formulation for removing backdoors from a given poisoned model based on a small set of clean data: <br>
 <img src="https://latex.codecogs.com/svg.image?\theta^{*}=\underset{\theta}{\arg&space;\min&space;}&space;\max&space;_{\|\delta\|&space;\leq&space;C_{\delta}}&space;H(\delta,&space;\theta):=\frac{1}{n}&space;\sum_{i=1}^{n}&space;L\left(f_{\theta}\left(x_{i}&plus;\delta\right),&space;y_{i}\right)&space;"> <br>
